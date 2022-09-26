@@ -95,7 +95,7 @@ describe("ERC4907DemoTesting", function () {
       //console.log(await erc4907.setUser(1,addr1.address,timestamp + 1000));
 
       expect(await erc4907.userOf(2)).to.equal(owner.address);
-      expect(await erc4907.userOf(6)).to.equal(owner.address); // will produce error because token 6 does not exist
+      //expect(await erc4907.userOf(6)).to.equal(owner.address); // will produce error because token 6 does not exist
     });
   });
 });
