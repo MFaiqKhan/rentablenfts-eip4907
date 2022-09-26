@@ -1,7 +1,10 @@
 import "@nomicfoundation/hardhat-toolbox";
 import { config as dotenvConfig } from "dotenv";
+// import docgen from hardhat-docgen
+import "hardhat-docgen";
 import type { HardhatUserConfig } from "hardhat/config";
 import type { NetworkUserConfig } from "hardhat/types";
+//require("hardhat-docgen");
 import { resolve } from "path";
 
 import "./tasks/accounts";
@@ -117,6 +120,11 @@ const config: HardhatUserConfig = {
   typechain: {
     outDir: "src/types",
     target: "ethers-v5",
+  },
+  docgen: {
+    path: "./docs",
+    clear: true,
+    runOnCompile: true,
   },
 };
 

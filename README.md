@@ -1,3 +1,7 @@
+# Docs at :
+
+- [Link:rentablenfts.surge.sh](rentablenfts.surge.sh) || Made with Hardhat-docgen
+
 # Hardhat Template [![Github Actions][gha-badge]][gha] [![Hardhat][hardhat-badge]][hardhat] [![License: MIT][license-badge]][license]
 
 [gha]: https://github.com/paulrberg/hardhat-template/actions
